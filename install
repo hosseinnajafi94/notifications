@@ -1,4 +1,8 @@
-composer install
+-- composer install
+-- npm i
+
+rename .env.example to .env
+set db
 
 php artisan migrate
 
